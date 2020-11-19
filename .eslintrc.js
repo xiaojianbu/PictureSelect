@@ -109,6 +109,22 @@ module.exports = {
     'no-plusplus': OFF,
     'no-console': OFF,
     'class-methods-use-this': ERROR,
-    'global-require': OFF
+    'global-require': OFF,
+    'jsx-a11y/label-has-associated-control': [
+      'error',
+      {
+        required: {
+          some: ['nesting', 'id']
+        }
+      }
+    ],
+    'jsx-a11y/label-has-for': [
+      'error',
+      {
+        required: {
+          some: ['nesting', 'id']
+        }
+      }
+    ]
   }
 }
