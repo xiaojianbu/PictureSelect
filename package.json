@@ -1,8 +1,8 @@
 {
-  "name": "demo-react-ts-template",
+  "name": "demo-picture-select",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/xiaojianbu/demo-react-ts-template.git",
+  "repository": "https://github.com/xiaojianbu/PictureSelect.git",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./scripts/config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config ./scripts/config/webpack.prod.js",
