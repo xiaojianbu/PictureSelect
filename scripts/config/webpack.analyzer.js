@@ -1,6 +1,8 @@
+const { merge } = require('webpack-merge')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const common = require('./webpack.common.js')
 
-module.exports = {
+module.exports = merge(common, {
   plugins: [
     new BundleAnalyzerPlugin({
       analyzerMode: 'server',
@@ -14,4 +16,4 @@ module.exports = {
       logLevel: 'info'
     })
   ]
-}
+})
